@@ -162,6 +162,7 @@ INSTALLED_APPS = (
     "django.contrib.sessions",
     "django.contrib.sites",
     "django.contrib.sitemaps",
+    "django.contrib.staticfiles",
     "mezzanine.conf",
     "mezzanine.core",
     "mezzanine.generic",
@@ -193,6 +194,7 @@ MIDDLEWARE_CLASSES = (
     "mezzanine.core.middleware.DeviceAwareUpdateCacheMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
+    "django.middleware.csrf.CsrfResponseMiddleware",
     "mezzanine.core.middleware.DeviceAwareFetchFromCacheMiddleware",
     "mezzanine.core.middleware.AdminLoginInterfaceSelector",
 )
