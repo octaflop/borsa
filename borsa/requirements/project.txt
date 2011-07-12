@@ -1,1 +1,7 @@
-Mezzanine==0.11.5
+Django==1.3
+-e git+https://github.com/stephenmcd/mezzanine.git@4877fc14bf4befb972f9b1d6032e0753323e3b29#egg=Mezzanine-0.11.5-py2.6-dev
+argparse==1.1
+filebrowser-safe==0.1.1
+gondor==1.0b1.post10
+grappelli-safe==0.1.7
+psycopg2==2.4.2
