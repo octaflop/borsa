@@ -1,0 +1,10 @@
+*.db
+bin/
+lib/
+include/
+share/
+include/
+src/
+*.pyc
+.*.swp
+
