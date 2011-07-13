@@ -138,6 +138,13 @@ MEDIA_URL = "/site_media/media/"
 # Absolute path to the directory that holds media.
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, MEDIA_URL.strip("/"))
 
+STATIC_URL = "/site_media/static/"
+STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/"))
+
+STATICFILES_DIRS = [
+    os.path.join(PROJECT_ROOT, "site_media"),
+]
+
 # Package/module name to import the root urlpatterns from for the project.
 ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
 
